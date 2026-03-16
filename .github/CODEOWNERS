@@ -1,0 +1,11 @@
+# Global owners
+* @customer-a/admins
+
+# Infra changes
+infra/ @customer-a/devops
+
+# API changes
+src/WebAPI/ @customer-a/backend
+
+# UI changes
+src/UI/ @customer-a/frontend

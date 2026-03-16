@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  api:
+    build: ./src/CustomerA.API
+    ports:
+      - "5000:80"
+  ui:
+    build: ./src/CustomerA.UI
+    ports:
+      - "3000:80"
